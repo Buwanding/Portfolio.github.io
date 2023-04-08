@@ -80,17 +80,39 @@ a:active{
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-
+    flex-direction: column;
+    margin-bottom: auto 20px;
     
 }
 .elementary{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+
+}
+.elementary .par2{
+    margin-left: 20px;
+}
+.high{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.high .par3{
+    margin-left: 20px;
+}
+.senior{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    background-color: aliceblue;
+}
+.senior .par4{
+    margin-left: 20px;
 }
 .img1{
     height: 150px;
@@ -103,7 +125,6 @@ a:active{
     padding-right: 10px;
     padding-left: 10px;
     background-color: greenyellow;
-
 
 }
 
@@ -137,6 +158,7 @@ a:active{
 .par1{
     color: aqua;
 }
+
 footer{
     width: 100%;
     background-color: rgb(141, 141, 141);
