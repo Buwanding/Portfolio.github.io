@@ -6,6 +6,11 @@
     text-align: center;
     margin-top: 10px;
  }
+ body {
+    background-image: url("../images/edu.png");
+    height: 100%;
+    width: 100%;
+}
  nav{
     width: 100%;
     background-color: rgb(141, 141, 141);
@@ -82,7 +87,7 @@ a:active{
     flex-wrap: wrap;
     flex-direction: column;
     margin-bottom: auto 20px;
-    
+    background-color: rgba(121, 116, 116, 0.4);
 }
 .elementary{
     display: flex;
