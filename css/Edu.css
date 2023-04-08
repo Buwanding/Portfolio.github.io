@@ -80,6 +80,14 @@ a:active{
     padding: 50px;
     
 }
+.elementary{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    justify-content: start;
+}
 .img1{
     height: 150px;
     width: 150px;
@@ -91,7 +99,7 @@ a:active{
     padding-right: 10px;
     padding-left: 10px;
     background-color: greenyellow;
-   
+    float:left;
 
 }
 
@@ -121,34 +129,7 @@ a:active{
     margin-top: 20px; ;
     background-color: greenyellow;  
 }
-.elementary{
 
-}
-.header{
-    width: 100%;
-    height: 20vh;
-    background-color: aqua;
-}
-.header .elementary .left img{
-    object-fit: cover;
-}
-.header .elementary .right{
-    position: relative;
-    right: 700px;
-}
-.header .elementary{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-
-}
-.header .elementary .right .par2{
-    font-family:'Arial Narrow';
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-}
 .par1{
     color: aqua;
 }
