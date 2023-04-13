@@ -96,29 +96,27 @@ a:active{
     flex-direction: row;
     align-items: center;
 }
-.elementary .par2{
+.div2.elementary .par2{
     margin-left: 20px;
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
     color: aliceblue;
-    overflow: hidden; 
-    border-right: 2px solid orange;
-    margin: 0 auto; 
-    animation: 
-    typing 3.5s steps(100, end),
-    blink-caret .75s infinite;
+    position: relative;
+    width: max-content;
 }
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+.par2::before,
+.par2::after{
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* position: absolute;
+    font-size: 30px;
+    margin-left: 20px; */
 }
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
+.par2 ::before{
+    background:rgb(12, 12, 12);
 }
  
 .high{
