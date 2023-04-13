@@ -87,7 +87,7 @@ a:active{
     flex-wrap: wrap;
     flex-direction: column;
     margin-bottom: auto 20px;
-    background-color: rgba(121, 116, 116, 0.7);
+    background-color: rgba(121, 116, 116, 0.8);
     justify-content: space-between;
 }
 .elementary{
@@ -95,26 +95,32 @@ a:active{
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    display: inline-block;
 }
 .elementary .par2{
     margin-left: 20px;
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(255,255,255);
-    border-right:2px solid #fc6dfc;
-    animation :typing 1.5s, cursor .4s step-end infinite alternate ;
+    color: aliceblue;
+    overflow: hidden; 
+    border-right: 2px solid orange;
+    margin: 0 auto; 
+    animation: 
+    typing 3.5s steps(100, end),
+    blink-caret .75s infinite;
 }
-@keyframes cursor{
-    50%{
-        border-color: transparent;
-    }
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
-@keyframes typing{
-    from{
-        width: 0
-    }
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
+ 
 .high{
     display: flex;
     flex-wrap: wrap;
