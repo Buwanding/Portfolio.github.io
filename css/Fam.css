@@ -71,6 +71,146 @@ a:active{
     cursor: pointer;
     border-radius: 10px;
 }
+body{
+}
+.div1{
+    background-color:rgb(225, 225, 225, 0.6);
+    width: 1000px;
+    border: rgba(225, 225, 225, 0.452);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: auto;
+    text-shadow: 5px 5px 5px rgba(87, 86, 86, 0.822);
+
+}
+.div1 .img1{
+    border-radius: 20%;
+    height: 500px;
+    width: 500px;
+    display: block;
+    object-fit: fill;
+    margin-right: auto;
+    margin-left: auto;
+    transition: 0.15s;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: auto;
+    height: 200px;
+    background-color: rgba(168, 160, 160, 0.6);
+    justify-content: center;
+    align-items: center;
+}
+.dm{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-right:50px;
+}
+.mother{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    margin-right: 50px ;
+}
+.hoverm{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(17, 17, 17, 0.8);
+    font-size: 20px;
+    color: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+.hoverm .p{
+    margin-left: 20px;
+}
+.hoverm:hover{
+    opacity: 1;
+
+}
+.df{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-right:50px;
+}
+.father{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    margin-right: 50px ;
+}
+.hoverf{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(17, 17, 17, 0.8);
+    font-size: 20px;
+    color: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+.hoverf .p{
+    margin-left: 20px;
+}
+.hoverf:hover{
+    opacity: 1;
+
+}.db{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-right:50px;
+}
+.brother{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    margin-right: 50px ;
+}
+.hoverb{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(17, 17, 17, 0.8);
+    font-size: 20px;
+    color: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+.hoverb .p{
+    margin-left: 20px;
+}
+.hoverb:hover{
+    opacity: 1;
+
+}
 footer{
     width: 100%;
     background-color: rgba(37, 37, 37, 0.8);
@@ -89,6 +229,7 @@ footer{
     justify-items: start;
 
 }
+
 footer p{
     color: rgb(255, 255, 255);
 }
