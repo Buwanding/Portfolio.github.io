@@ -24,7 +24,7 @@
     padding-right: 20px;
  
  }
- .home,.button1,.button2,.button3{
+ .home,.button1,.button2{
     background-color: white;
     color:black;
     height: 30px;
@@ -69,13 +69,7 @@ a:active{
     cursor: pointer;
     border-radius: 10px;
 }
-.button3:hover{
-    background-color: aqua;
-    height: 50px;
-    font-size: 15px;
-    cursor: pointer;
-    border-radius: 10px;
-}
+
 .div2{
     background-color: white;
     width: 95%;
@@ -103,27 +97,6 @@ a:active{
     color: aliceblue;
     position: relative;
     width: max-content;
-}
-.par2::before,
-.par2::after{
-    content: "";
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    /* position: absolute;
-    font-size: 30px;
-    margin-left: 20px; */
-}
-.par2 ::before{
-    background:rgb(12, 12, 12)
-    
-    
-    
-    
-    
-    
-    ;
 }
  
 .high{

@@ -29,7 +29,7 @@ h1:hover{
         padding-right: 20px;
      
      }
-     .home,.button1,.button2,.button3{
+     .home,.button1,.button2{
         background-color: white;
         color:black;
         height: 30px;
@@ -74,13 +74,7 @@ h1:hover{
         cursor: pointer;
         border-radius: 10px;
     }
-    .button3:hover{
-        background-color: aqua;
-        height: 50px;
-        font-size: 15px;
-        cursor: pointer;
-        border-radius: 10px;
-    }
+
 .par1{
     margin-top: 5px;
     text-align: center;
@@ -120,6 +114,149 @@ h1:hover{
     margin-bottom: auto;
     text-shadow: 5px 5px 5px rgba(87, 86, 86, 0.822);
 
+}
+.mains{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(168, 160, 160, 0.6);
+    height: 360px;
+    width: auto;
+}
+.mains h2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    color: bisque;
+}
+h2:hover{
+    text-shadow: 10px 10px 10px black;
+}
+.hobby{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.gaming{
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+.game{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+
+}
+.hoverg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(17, 17, 17, 0.8);
+    font-size: 20px;
+    color: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+.hoverg p{
+   margin-left: 20px;
+   margin-right: 20px;
+   font-size: 25px;
+
+}
+.hoverg:hover{
+    opacity: 1;
+
+}
+.anime{
+    position: relative;
+    height: 300px;
+    width: 300px;
+
+}
+.ani{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+
+}
+.hovera{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(17, 17, 17, 0.8);
+    font-size: 20px;
+    color: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+.hovera p{
+    margin-left: 20px;
+    margin-right: 20px;
+   font-size: 25px;
+}
+.hovera:hover{
+    opacity: 1;
+
+}.documentary{
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+.doc{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+
+}
+.hoverd{
+    position: absolute;
+  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(17, 17, 17, 0.8);
+    font-size: 20px;
+    color: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+.hoverd p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    
+}
+.hoverd:hover{
+    opacity: 1;
+
+}
+@media screen {
+    
 }
 footer{
     width: 100%;
