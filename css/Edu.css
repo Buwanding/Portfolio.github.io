@@ -72,22 +72,18 @@ a:active{
 
 .div2{
     background-color: white;
-    width: 95%;
-    height:900px;
-    border: 7px solid black;
-    border-radius: 10px;
-    padding: 50px;
+    width: auto;
+    height:700px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     margin-bottom: auto 20px;
-    background-color: rgba(121, 116, 116, 0.8);
-    justify-content: space-between;
+    background-color: rgba(192, 188, 188, 0.486);
 }
 .elementary{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 .div2.elementary .par2{
@@ -98,11 +94,16 @@ a:active{
     position: relative;
     width: max-content;
 }
+picture{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
  
 .high{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 .high .par3{
@@ -112,7 +113,7 @@ a:active{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     background-color: aliceblue;
 }
@@ -147,7 +148,7 @@ a:active{
     background-color: greenyellow;
     
 }
-.img3{
+.img3,.img4{
     height: 150px;
     width: 150px;
     object-fit: fill;
