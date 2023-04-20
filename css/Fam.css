@@ -66,6 +66,7 @@ a:active{
 }
 
 body{
+    background-image: url(../images/family2.jpg);
 }
 .div1{
     background-color:rgb(225, 225, 225, 0.6);
@@ -96,15 +97,15 @@ section{
     flex-wrap: wrap;
     flex-direction: row;
     width: auto;
-    height: 200px;
+    height: 400px;
     background-color: rgba(168, 160, 160, 0.6);
     justify-content: center;
     align-items: center;
 }
 .dm{
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 250px;
     margin-right:50px;
 }
 .mother{
@@ -138,8 +139,8 @@ section{
 }
 .df{
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 250px;
     margin-right:50px;
 }
 .father{
@@ -172,8 +173,8 @@ section{
 
 }.db{
     position: relative;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 250px;
     margin-right:50px;
 }
 .brother{
@@ -185,7 +186,6 @@ section{
 }
 .hoverb{
     position: absolute;
-  
     top: 0;
     left: 0;
     width: 100%;
@@ -218,7 +218,6 @@ footer{
     justify-content: center;
     padding-left: 20px;
     padding-right: 20px;
-    position: absolute;
     right: 0;
     left: 0;
     bottom: 0;
