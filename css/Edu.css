@@ -80,85 +80,189 @@ a:active{
     margin-bottom: auto 20px;
     background-color: rgba(192, 188, 188, 0.486);
 }
-.elementary{
+.container{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 90%;
+    background-color: rgba(80, 79, 79, 0.568);
 }
-.div2.elementary .par2{
-    margin-left: 20px;
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;
+.left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+}
+.left ul{
+    margin-left:30px ;
+    font-size: 50px;
     color: aliceblue;
-    position: relative;
-    width: max-content;
+}
+.right{
+    width: 50%;
+    background-image: url("../images/pic.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 picture{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(37, 52, 99);
+    align-items: center;
+    height:400px;
 }
- 
-.high{
+.elementary{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    height: 300px;
+    width: 300px;
 }
-.high .par3{
-    margin-left: 20px;
-}
-.senior{
+.hovere{
+    position:absolute;
+    background-color: rgba(77, 76, 76, 0.548);
+    height: 100%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 1.5s;
+}
+.par2{
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+}
+.hovere:hover{
+    opacity: 1;
+}
+.high{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
 }
-.senior .par4{
+.hoverh{
+    position:absolute;
+    background-color: rgba(77, 76, 76, 0.548);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 1.5s;
+}
+ .par3{
     margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+}
+.hoverh:hover{
+    opacity: 1;
+}
+.senior{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+}
+.hovers{
+    position:absolute;
+    background-color: rgba(77, 76, 76, 0.548);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 1.5s;
+}
+.par4{
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+}
+.hovers:hover{
+    opacity: 1;
+}
+.college{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+}
+.hoverc{
+    position:absolute;
+    background-color: rgba(77, 76, 76, 0.548);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 1.5s;
+
+}
+.par5{
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+}
+.hoverc:hover{
+    opacity: 1;
 }
 .img1{
-    height: 150px;
-    width: 150px;
+    display: block;
+    height: 100%;
+    width: 100%;
     object-fit: fill;
-    border: solid black 1px;
-    clear: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    background-color: greenyellow;
 
 }
 
 
 .img2{
-   height: 150px;
-    width: 150px;
+    display: block;
+    height: 100%;
+    width: 100%;
     object-fit: fill;
-    border: solid black 1px;
-    clear: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    background-color: greenyellow;
     
 }
-.img3,.img4{
-    height: 150px;
-    width: 150px;
-    object-fit: fill;
-    border: solid black 1px;
-    clear: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    background-color: greenyellow;  
+.img3{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: fill; 
+}
+.img4{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;  
 }
 
 .par1{
