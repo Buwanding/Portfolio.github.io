@@ -188,6 +188,7 @@ h1:hover{
     text-align: center;
     margin-top: 50%;
     transform: translateY(-50%);
+    text-align: justify;
   }
 
   @media screen and (max-width:1000px) {

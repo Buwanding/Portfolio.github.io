@@ -139,6 +139,7 @@ picture {
     text-align: center;
     margin-top: 50%;
     transform: translateY(-50%);
+    text-align: justify;
   }
 .fam{
     position: relative;
